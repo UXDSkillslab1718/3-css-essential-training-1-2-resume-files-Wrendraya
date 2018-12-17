@@ -1,0 +1,111 @@
+/* Color palette 
+#202C39 - dark blue 
+#283845 - Slightly lighter blue
+#B8B08D - Kakie
+#F2D492 - Sand
+#F29559 - Orange */
+
+body {
+    background :  #202C39 ;
+    font-family: 'Muli', sans-serif;
+    font-size : 20px;
+    margin : 0;
+}
+
+
+/* links color*/
+a {
+	color :#F29559 ;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content-wrap {
+	max-width: 950px;
+	margin :0 auto;
+	padding : 50px;
+	overflow: hidden;
+}
+
+.col-narrow {
+	width :30%;
+	float : left;
+	min-height: 175px;
+}
+
+.col-wide {
+	width : 70%;
+	float : left;
+	padding-left: 20px;
+	min-height: 175px;
+}
+
+footer {
+	 text-align: center;
+}
+
+/* Header and footer */
+header, footer {
+	background :#202C39;
+	color : #B8B08D ;
+}
+
+/* header style */
+header h1, header h2 {
+	color:#F29559;
+	margin : 10px;
+}
+
+.profile-img {
+	border-radius: 50%;
+}
+
+h2 {
+	color : #F29559;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+
+}
+
+h1 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 50px;
+	text-align: center;
+
+
+}
+/* Work */
+.work {
+	background: #283845
+}
+
+/* Education */
+.education {
+	background: #283845
+}
+
+.lol {
+	font-size: 40px;
+
+}
+
+.content-wrap {
+	max-width : 950px;
+	margin : 0 auto;
+	padding: 50px;
+}
+
+.copy {
+	font-size : 10px;
+
+}
+
+.links a {
+	background: #283845;
+	padding: 20px;
+	display: inline-block;
+}
+

@@ -1,0 +1,162 @@
+/* Global styles 
+------------------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+}
+a {
+    color: #F29559;
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color : #B8B08D ;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  margin :0;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+
+
+
+/* Header & Footer 
+------------------------------------*/
+header, 
+footer {
+  background: #202C39;
+  color: #B8B08D;
+}
+
+header h1,
+header h2 {
+    color: #F29559;
+    margin: 0;
+}
+
+/* Header styles only */
+header {
+  text-align: center;
+  padding-top : 50px;
+}
+.profile-img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Navigation 
+-------------------------------------*/
+nav {
+  text-align: center;
+  background: #283845;
+  position : fixed;
+  top : 0;
+  width : 100%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration : none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #283845;
+}
+h3 ~ p {
+  margin:0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.job-description p:first-of-type {
+ margin-top : 0;
+}
+
+/* Education
+------------------------------------*/
+/*    background :  #283845 ;} */
+
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/fuck.jpg) no-repeat fixed;
+  background-size: cover;} 
+
+p + h3 {
+  margin-top: 30px;
+}
+
+
+
+/* Media
+------------------------------------*/
+
+
+@media (min-width: 900px) {
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+}
+
+@media (max-width: 899px){
+  header {
+    text-align : center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
+
+
+
+
